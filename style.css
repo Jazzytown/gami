@@ -1,0 +1,81 @@
+h1 {
+    color: rgb(13, 51, 32);
+    margin-right: 50px;
+}
+
+/* * {
+    border: solid;
+} */
+.header *{
+  font-style:oblique;
+  font-size: 1cm;
+}
+.header{
+    background-color: rgba(118, 216, 127, 0);
+    display:flex
+    border-top;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+};
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu{
+    margin-right:30px ;
+}
+
+.menu a{
+    margin-left:15px;
+}
+p,h2{
+    
+    text-align: center;
+border-top: rgb(9, 150, 51);
+text-emphasis: size 100px;
+font-style: oblique;
+font-size: 7mm;
+font-weight:bold
+}
+
+a:link {
+    color:#7dd79b
+}
+a:visited{
+    color:#92cea4
+}
+.item{
+position:relative
+}
+.item p{
+position: absolute;
+top :50%;
+left:20%;
+transform: translate(-50%,-50%);
+
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    opacity:0.33;
+}
+body{
+    border:solid;
+    font-style:inherit;
+    font-size: 4mm;
+    border-width: 1cm;
+    border-color: rgb(164, 216, 168);
+   background-image:url(https://cdn.wallpapersafari.com/36/65/wegQc7.jpg);
+}
